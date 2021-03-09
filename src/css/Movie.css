@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: black;
+  color: rgb(13, 19, 20);
+}
+.Movies {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+.mlist {
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: 200ms all ease-in;
+}
+.mlist:hover {
+  box-shadow: 6px 6px 5px rgba(190, 75, 75, 0.4);
+}
+.mlist img {
+  width: 200px;
+  border-radius: 0.5rem;
+}
+.mlist h4 {
+  font-style: oblique;
+  color: whitesmoke;
+}
+.mlist h5 {
+  color: rgba(209, 196, 196, 0.808);
+}
+@media screen and (min-width: 768px) {
+  .Movies {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

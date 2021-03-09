@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.moviecard {
+  display: flex;
+
+  filter: blur(6px);
+  font-style: oblique;
+  color: whitesmoke;
+}
+.imgbody {
+  background: black;
+  padding: 0.1rem 0.1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-left: 10%;
+  margin-top: 4%;
+  display: flex;
+}
+.container {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+}
+.textbody {
+  padding-left: 2rem;
+  width: 600px;
+  margin: 4px;
+  color: whitesmoke;
+}
+.genres {
+  background-color: white;
+  border-radius: 14px;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 4px;
+}
+.trailer {
+  display: block;
+  background-color: white;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}

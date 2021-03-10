@@ -63,6 +63,7 @@ export default function MovieDetail(props) {
             href={
               videoURL + moviesDetail.videos.results.map((video) => video.key)
             }
+            target="_blank"
           >
             Watch trailer
           </a>
